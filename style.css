@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Paaji+2:wght@500&family=DynaPuff&family=Mukta&family=Pattaya&family=Roboto+Slab&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+#main{
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+}
+#circle{
+    width: 500px;
+    height: 500px;
+    background-color: rgb(161, 156, 156);
+    border-radius: 50%;
+    position: absolute;
+    top:-50%;
+    left: 24%;
+}
+#nav{
+    position: relative;
+    width: 100%;
+    height: 15%;
+    /* background-color: #000; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    user-select: none;
+    
+}
+#nav-left{
+    width: 20%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #000;
+    font-weight: 900;
+    font-size: 4vw;
+    font-family: 'Baloo Paaji 2';
+}
+#nav-center{
+    width: 60%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    /* background-color: brown; */
+    padding: 0 120px;
+    font-size: 1.5vw;
+    font-weight: 600;
+    font-family: 'Baloo Paaji 2';
+}
+#nav-center>a{
+    text-decoration: none;
+    text-align: center;
+    color: #000;
+    opacity: 0.7;
+}
+#nav-right{
+    width: 20%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 50px;
+    font-size: 1.5vw;
+    font-weight: 600;
+    font-family: 'Baloo Paaji 2';
+}
+#nav-right>a{
+    text-decoration: none;
+    color: #000;
+
+}
+#text-info{
+    position: absolute;
+    top: 30%;
+    left: 10%;
+    width: 25%;
+    height: 60%;
+    /* background-color: yellowgreen; */
+    border: 1px solid rgba(71, 70, 70, 0.219);
+}
+#text-info>h1{
+    writing-mode:vertical-lr;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-weight: 900;
+    font-size: 3vw;
+    font-family: 'DynaPuff';
+}
+#box{
+    width: 80%;
+    height: 20%;
+    /* background-color: rgb(54, 29, 29); */
+    position: absolute;
+    top: 80%;
+    left: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+    /* border: 1px solid rgba(71, 70, 70, 0.219); */
+}
+#slide1{
+    width: 20%;
+    height: 60%;
+    background: rgb(103, 115, 223);
+    position: absolute;
+    top: 25%;
+    left: 38%;
+}
+#slide1>img{
+    width: 160%;
+    position: absolute;
+    top: -36%;
+    left: -38%;
+    transform: rotate(-30deg);
+}
+#slide1>h1{
+    font-weight: 800;
+    font-size: 3vw;
+    font-family: 'Baloo Paaji 2';
+    padding-left: 30px;
+    padding-top: 10px;
+}
+#slide2{
+    width: 20%;
+    height: 60%;
+    background: rgb(223, 235, 115);
+    position: absolute;
+    top: 35%;
+    left: 65%;
+}
+#slide2>img{
+    width: 140%;
+    position: absolute;
+    top: -20%;
+    left: -20%;
+    transform: rotate(-30deg);
+}
+#slide2>h1{
+    font-weight: 800;
+    font-size: 3vw;
+    font-family: 'Baloo Paaji 2';
+    padding-left: 30px;
+    padding-top: 10px;
+}
